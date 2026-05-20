@@ -9,14 +9,27 @@
 </head>
 <body>
   <header>
-    <nav class="flex justify-between bg-[#0f0f0f] text-white">
-      <div class="flex ">
-        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5 10 L5 30 L15 30 L15 20 L25 20 L25 30 L35 30 L35 10 L25 10 L25 15 L15 15 L15 10 Z" fill="#E63946"></path>
-          <rect x="18" y="5" width="4" height="30" fill="#FF6B35" opacity="0.8"></rect>
-          <rect x="5" y="18" width="30" height="4" fill="#FF6B35" opacity="0.8"></rect>
-        </svg>
-        <span>FORGE</span>
+    <nav class="flex justify-between items-center bg-[#0f0f0f] text-white px-8 py-4">
+      <div  class="hover:translate-y-[-2px] transition-all">
+        <a href="./index.html" class="group w-[150px] flex items-center">
+          <svg class="w-[35px] h-[35px] transition-colors duration-200" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 10 L5 30 L15 30 L15 20 L25 20 L25 30 L35 30 L35 10 L25 10 L25 15 L15 15 L15 10 Z"
+                  fill="#E63946"
+                  class="group-hover:fill-[#FF6B35] transition-colors duration-200"></path>
+
+            <rect x="18" y="5" width="4" height="30"
+                  fill="#FF6B35" opacity="0.8"
+                  class="group-hover:fill-[#FF6B35] transition-colors duration-200"></rect>
+
+            <rect x="5" y="18" width="30" height="4"
+                  fill="#FF6B35" opacity="0.8"
+                  class="group-hover:fill-[#FF6B35] transition-colors duration-200"></rect>
+          </svg>
+
+          <span class="text-[#e22f47] text-[28px] font-extrabold ps-2 group-hover:text-[#FF6B35] transition-colors duration-200">
+            FORGE
+          </span>
+        </a>
       </div>
       <ul>
         <li><a href="#">Spaces</a></li>
