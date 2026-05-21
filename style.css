@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header{
+  background-image: url(image/hero-bg-1.jfif);
+  animation: heroBg 10s infinite;
+}
+@keyframes heroBg {
+  0%{
+    background-image: url(./image/hero-bg-1.jfif);
+  }
+  50%{
+    background-image: url(./image/hero-bg-2.jfif);
+  }
+  100%{
+    background-image: url(./image/hero-bg-3.jfif);
+  }
+}
