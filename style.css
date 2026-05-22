@@ -2,17 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 .header{
-  background-image: url(image/hero-bg-1.jfif);
-  animation: heroBg 10s infinite;
+  animation: heroBg 20s infinite;
 }
 @keyframes heroBg {
   0%{
-    background-image: url(./image/hero-bg-1.jfif);
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(255, 107, 53, 0.2)), url(./image/hero-bg-1.jfif);
+    background-position: center;
+    background-size: cover;
   }
-  50%{
-    background-image: url(./image/hero-bg-2.jfif);
+  20%{
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(255, 107, 53, 0.2)), url(./image/hero-bg-2.jfif);
+    background-position: center;
+    background-size: cover;
+  }
+  40%{
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(255, 107, 53, 0.2)), url(./image/hero-bg-3.jfif);
+    background-position: center;
+    background-size: cover;
+  }
+  60%{
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(255, 107, 53, 0.2)), url(./image/hero-bg-1.jfif);
+    background-position: center;
+    background-size: cover;
+  }
+  80%{
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(255, 107, 53, 0.2)), url(./image/hero-bg-2.jfif);
+    background-position: center;
+    background-size: cover;
   }
   100%{
-    background-image: url(./image/hero-bg-3.jfif);
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(255, 107, 53, 0.2)), url(./image/hero-bg-3.jfif);
+    background-position: center;
+    background-size: cover;
   }
 }
