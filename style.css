@@ -36,3 +36,6 @@
     background-size: cover;
   }
 }
+.header h1{
+  font-size: clamp(3rem, 8vw, 6rem);
+}
