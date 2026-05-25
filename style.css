@@ -6,7 +6,7 @@ body{
 }
 :root{
   --primary-font: "Inter", sans-serif;
-  --secondary-font:"Bebas Neue", sans-serif;
+  --secondary-font:"Anton", sans-serif;
 }
 .header{
   animation: heroBg 20s infinite;
@@ -44,9 +44,9 @@ body{
   }
 }
 .header h1{
-  font-size: clamp(3rem, 8vw, 8rem);
+  font-size: clamp(3rem, 8vw, 6rem);
   font-family: var(--secondary-font);
-  line-height: 0.9;
-  letter-spacing: 0.05em;
+  line-height: 1;
+  letter-spacing: 0.06em;
   font-weight: 900;
 }
